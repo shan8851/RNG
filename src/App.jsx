@@ -13,8 +13,8 @@ const [rng, setRng] = useState(Math.floor(Math.random() * 101));
 
   const color = rng > 70
   ? 'green' : rng > 45
-  ? 'orange' : rng > 25
-  ? 'yellow' : 'red';
+  ? 'yellow' : rng > 25
+  ? 'orange' : 'red';
 
   return (
     <div className="main">
